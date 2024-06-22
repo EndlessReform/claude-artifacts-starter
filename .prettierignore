@@ -1,0 +1,42 @@
+# Ignore artifacts:
+build
+dist
+
+# Ignore all HTML files:
+*.html
+
+# Ignore all markdown files:
+*.md
+
+# Ignore package files:
+package.json
+package-lock.json
+
+# Ignore configuration files:
+vite.config.ts
+tsconfig.json
+.eslintrc.js
+
+# Ignore node_modules:
+node_modules
+
+# Ignore CSS files (if you're using a CSS-in-JS solution):
+*.css
+
+# Ignore SVG files:
+*.svg
+
+# Ignore all log files:
+*.log
+
+# Ignore the .cache directory:
+.cache
+
+# Ignore the public directory:
+public
+
+# Ignore the coverage directory:
+coverage
+
+# Ignore specific directories if needed:
+# src/assets
